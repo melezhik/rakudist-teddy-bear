@@ -31,6 +31,10 @@ package-install "sqlite-dev";
 
 `curl -d os=alpine -d project=melezhik/rakudist-teddy-bear http://repo.westus.cloudapp.azure.com/rakudist/api/run/:github`
 
+# See also
+
+[RakuDist](https://github.com/melezhik/RakuDist)
+
 # Author 
 
 Alexey Melezhik
