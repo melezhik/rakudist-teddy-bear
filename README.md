@@ -1,11 +1,11 @@
 # Rakudist Teddy::Bear
 
-Example of Raku module installation customization using RakuDist
+An example of Raku module installation customization using RakuDist
 
 # Why?
 
-* Your module installation need some external none Raku dependencies, not satisfied by `zef`
-* Your module installation needs some custom configuration ( running database, installing configuration files, so on)
+* Your module installation/test needs some external none Raku dependencies, not satisfied by `zef`
+* Your module installation/test needs some custom configuration ( running database, installing configuration files, so on)
 
 Here is RakuDist custom scenarios for the rescue!
 
@@ -17,7 +17,7 @@ Here is RakuDist custom scenarios for the rescue!
 
 `nano .rakudist/sparrowfile`
 
-```perl
+```
 package-install "sqlite-dev";
 ```
 
