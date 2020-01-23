@@ -11,8 +11,7 @@ Here is RakuDist custom scenarios for the rescue!
 
 # How?
 
-## Set custom scenario
-
+1. Set custom scenario
 
 `mkdir .rakudist`
 
@@ -22,12 +21,12 @@ Here is RakuDist custom scenarios for the rescue!
 package-install "sqlite-dev";
 ```
 
-## Commit `.rakudist` folder
+2. Commit `.rakudist` folder
 
 `git add .rakudist && git push`
 
 
-# Run remote test
+3. Run module install test remotely
 
 `curl -d os=alpine -d project=melezhik/rakudist-teddy-bear http://repo.westus.cloudapp.azure.com/rakudist/api/run/:github`
 
