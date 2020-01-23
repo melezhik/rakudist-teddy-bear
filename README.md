@@ -19,7 +19,7 @@ Here is RakuDist custom scenarios for the rescue!
 `nano .rakudist/sparrowfile`
 
 ```perl
-package "sqlite-dev";
+package-install "sqlite-dev";
 ```
 
 ## Commit `.rakudist` folder
