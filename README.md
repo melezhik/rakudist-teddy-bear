@@ -11,7 +11,7 @@ Here is RakuDist custom scenarios for the rescue!
 
 # How?
 
-1. Set custom scenario
+1. [Write](https://github.com/melezhik/Sparrow6/blob/master/documentation/dsl.md) custom scenario
 
 `mkdir .rakudist`
 
