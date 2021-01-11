@@ -4,7 +4,7 @@ An example of Raku module installation customization using RakuDist
 
 # Build status
 
-![build status](http://161.35.142.50)
+![build status](http://161.35.142.50/badge/project/teddy-bear)
 
 # Why?
 
