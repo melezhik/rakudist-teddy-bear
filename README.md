@@ -2,6 +2,10 @@
 
 An example of Raku module installation customization using RakuDist
 
+# Build status
+
+![build status](http://161.35.142.50)
+
 # Why?
 
 * Your module installation/test needs some external none Raku dependencies, not satisfied by `zef`
