@@ -25,7 +25,6 @@ package-install "sqlite-dev";
 
 `git add .rakudist && git push`
 
-
 3. Run module install test remotely
 
 `curl -d os=alpine -d project=melezhik/rakudist-teddy-bear http://repo.westus.cloudapp.azure.com/rakudist/api/run/:github`
