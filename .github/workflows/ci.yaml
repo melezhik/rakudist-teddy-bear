@@ -1,0 +1,9 @@
+name: My workflow
+on: push
+jobs:
+  do-something:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: list
+          run: ls -l
