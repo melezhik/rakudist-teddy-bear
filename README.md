@@ -1,6 +1,6 @@
 # Rakudist Teddy::Bear
 
-An example of Raku module installation customization using RakuDist.
+An example of Raku module installation customization using RakuDist
 
 # Why?
 
