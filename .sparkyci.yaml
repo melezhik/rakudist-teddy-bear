@@ -9,7 +9,7 @@ init:
   variables:
     DB_USER: sparky
     DB_PASS: sparky123
-    DB_NAME: sparky_test111
+    DB_NAME: sparky_test
 
 main:
   with-code-coverage: false
