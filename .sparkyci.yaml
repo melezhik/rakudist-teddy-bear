@@ -4,6 +4,7 @@ init:
 
   script: |
     echo DB_USER: $DB_USER
+    env 
 
   variables:
     DB_USER: sparky
