@@ -12,4 +12,4 @@ init:
     DB_NAME: sparky_test
 
 main:
-  with-code-coverage: true
+  with-code-coverage: false
