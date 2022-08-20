@@ -42,4 +42,4 @@ package-install "sqlite-dev";
 
 # Author 
 
-Alexey Melezhik
+Alexey Melezhik.
