@@ -15,3 +15,4 @@ main:
   with-code-coverage: false
   verbose: true
   with-zef-deps: true
+  with-license-check: true

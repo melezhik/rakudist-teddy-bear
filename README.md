@@ -6,8 +6,8 @@ An example of Raku module installation customization using RakuDist.
 
 
 [![SparkyCI](http://sparrowhub.io:2222/project/gh-melezhik-rakudist-teddy-bear/badge)](http://sparrowhub.io:2222)
-      
-      
+
+
 # Why?
 
 * Your module installation/test needs some external none Raku dependencies, not satisfied by `zef`
