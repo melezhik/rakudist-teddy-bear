@@ -5,7 +5,7 @@ An example of Raku module installation customization using RakuDist.
 # Build status
 
 
-[![SparkyCI](http://sparrowhub.io:2222/project/gh-melezhik-rakudist-teddy-bear/badge)](http://sparrowhub.io:2222)
+[![SparkyCI](https://ci.sparrowhub.io/project/gh-melezhik-rakudist-teddy-bear/badge)](https://ci.sparrowhub.io)
 
 
 # Why?
