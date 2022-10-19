@@ -7,6 +7,8 @@ tasks:
     depends:
       -
         name: install_ruby
+      - 
+        name: install_mysql_server   
   -
     name: raku_task
     language: Raku
@@ -22,4 +24,12 @@ tasks:
     name: install_ruby
     language: Bash
     code: sudo apk add ruby 
- 
+  -
+    name: install_mysql_server
+    plugin: sparkyci-service-mysql
+    config:
+      db_name: dbdishtest
+      db_user: testuser
+      db_pass: testpass
+
+  
