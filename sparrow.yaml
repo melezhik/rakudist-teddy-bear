@@ -1,25 +1,9 @@
+secrets:
+  - foo
 tasks:
   -
-    language: Ruby
-    name: ruby_task
-    code: |
-      update_state(Hash["message", "I code in Ruby"])
-    depends:
-      -
-        name: install_ruby
-  -
-    name: raku_task
-    language: Raku
-    default: true
-    depends: 
-      - 
-        name: ruby_task
-    code: |
-      say "ruby_task says: {config()<tasks><ruby_task><state><message>}"
-    check: |
-      ruby_task says: I code in Ruby      
-  -
-    name: install_ruby
     language: Bash
-    code: sudo apk add ruby 
-
+    name: main
+    default: true
+    code: |
+      echo $foo
