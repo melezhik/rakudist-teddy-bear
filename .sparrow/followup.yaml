@@ -1,0 +1,10 @@
+image:
+  - melezhik/sparrow:debian
+
+tasks:
+  -
+    language: Bash
+    name: main
+    default: true
+    code: |
+      echo hello from follow up job
