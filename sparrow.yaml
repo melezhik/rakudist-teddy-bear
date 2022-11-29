@@ -1,0 +1,9 @@
+secrets:
+  - foo
+tasks:
+  -
+    language: Bash
+    name: main
+    default: true
+    code: |
+      echo $foo
