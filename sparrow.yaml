@@ -7,3 +7,5 @@ tasks:
     default: true
     code: |
       echo $foo
+
+followup_job: .sparrow/followup.yaml 
