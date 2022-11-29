@@ -6,7 +6,7 @@
   "depends" : [
     "Sparrow6"
   ],
-  "description" : "Teddy::Bear",
+  "description" : "Dummy Raku module to test SparrowCI service",
   "license" : "Artistic-2.0",
   "name" : "Teddy Bear",
   "perl" : "6.*",
@@ -23,5 +23,5 @@
   },
   "tags" : [ ],
   "test-depends" : [ ],
-  "version" : "0.0.1"
+  "version" : "0.0.2"
 }
