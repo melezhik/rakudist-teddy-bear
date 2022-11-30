@@ -8,3 +8,5 @@ tasks:
       cd source/
       zef install --deps-only --/test .
       zef test .
+      
+followup_job: .sparrow/publish.yaml
