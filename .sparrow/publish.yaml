@@ -1,10 +1,34 @@
 image:
   - melezhik/sparrow:debian
 
+secrets:
+  - FEZ_TOKEN
 tasks:
-  -
-    language: Bash
-    name: main
+  - name: fez-upload
     default: true
-    code: |
-      echo hello from follow up job
+    language: Raku
+    init: |
+      if config()<tasks><git-commit><state><comment> ~~ /'Happy New Year'/ {
+        run_task "upload"
+      }
+    subtasks:
+    -
+      name: upload
+      language: Bash
+      code: |
+        set -e
+        cat << HERE > ~/.fez-config.json
+          {"groups":[],"un":"melezhik","key":"$FEZ_TOKEN"}
+        HERE
+        cd source/
+        zef install --/test fez
+        head Changes
+        tom --clean
+        fez upload
+    depends:
+      -
+        name: git-commit
+  - name: git-commit
+    plugin: git-commit-data
+    config:
+      dir: source
