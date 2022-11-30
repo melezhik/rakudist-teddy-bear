@@ -1,6 +1,6 @@
 # Rakudist Teddy::Bear
 
-Dummy Raku module to test SparrowCI service
+Dummy Raku module to test SparrowCI service.
 
 # Author 
 

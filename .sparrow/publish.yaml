@@ -22,7 +22,6 @@ tasks:
         HERE
         cd source/
         zef install --/test fez
-        head Changes
         tom --clean
         fez upload
     depends:
